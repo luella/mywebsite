@@ -1,73 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Luella Fu</title>
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+	 crossorigin="anonymous">
 
-
-	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body> <!-- start body  -->
-	<div id = "container">
+<body>
+	<div class="container">
 
-	<!-- start nav bar -->
-	 <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-light">
-	 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-	    <ul class="nav navbar-nav navbar-right">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="index2.html">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="research.html">Research</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="about.html">About Me</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav> <!--  Navigation div ends -->
-
-
-		<h1>Luella Fu</h1>
-
-		
-		<div id = "topphoto">
-		<img class = "profilepic" src = "images/self.png" alt = "My photo" >
+		<!-- Navigation  -->
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills float-right">
+					<li class="nav-item">
+						<a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="research.html">Research & Teaching</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About Me</a>
+					</li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">Luella Fu</h3>
 		</div>
 
+		<!-- Overview -->
+		<div class="banner row">
+			<div class="col-md-6">
+				<img class="banner-image" src="images/self.png" alt="My photo">
+			</div>
+			<div class="col-md-6">
+				<div class="banner-body">
+					<div class="banner-title">Luella Fu</div>
+					<div class="banner-subtitle">PHD Candidate</div>
+					<a href="https://www.marshall.usc.edu/faculty/iom" target="_blank" rel="nofollow">Department of Data Sciences and Operations</a><br/>
+					<a href="http://www.marshall.usc.edu/" target="_blank" rel="nofollow">Marshall School of Business</a><br/>
+					<a href="http://www.usc.edu/" target="_blank" rel="nofollow">University of Southern California</a>
+				</div>
+			</div>
+		</div>
 
-		<!-- Main div begins here -->
-		<div id = "main">
-			<p> I am Luella Fu, a Ph.D. candidate in the <a href = "http://www-bcf.usc.edu/~gareth/StatGroup/"> statistics group</a>, part of the <a href = "https://www.marshall.usc.edu/faculty/iom/about"> Department of Data Sciences and Operations </a> at University of Southern California's Marshall School of Business. My methodological focuses have been in <a href = "https://en.wikipedia.org/wiki/Multiple_comparisons_problem">multiple testing</a> and <a href = "https://en.wikipedia.org/wiki/Regularization_(mathematics)#Regularization_in_statistics_and_machine_learning">high dimensional regression</a>. I am also interested in how statistics are used in application, and have worked on medical and social network problems. 
-			 </p>
+		<!-- Content -->
+		<div class="content">
 
-			 <p> My graduate school experience has been illuminated by faculty, collaborators, and peers. My advisor is <a href = "http://www-bcf.usc.edu/~wenguans/">Dr. Wenguang Sun</a>. We are studying statistical methods for large-scale estimation and inference jointly with  <a href = "http://www-bcf.usc.edu/~gareth/">Dr. Gareth James</a>.  
+			<legend>Overview</legend>
+			<p> I am Luella Fu, a Ph.D. candidate in the <a class="bold" href="http://www-bcf.usc.edu/~gareth/StatGroup/"> statistics group</a>,
+				part of the <a class="bold" href="https://www.marshall.usc.edu/faculty/iom/about"> Department of Data Sciences and Operations </a>				at University of Southern California's Marshall School of Business. My methodological focuses are in <a 
+				 href="https://en.wikipedia.org/wiki/Empirical_Bayes_method"> empirical Bayes methods</a> and <a href="https://en.wikipedia.org/wiki/Multiple_comparisons_problem">multiple testing</a>. This is an amazing field with so many applications to large-scale data and so much still to develop in terms of statistical techniques.
+				I previously worked on
+				<a class="bold" href="https://en.wikipedia.org/wiki/Regularization_(mathematics)#Regularization_in_statistics_and_machine_learning">high dimensional regression and model selection</a>.
+				I am also interested in how statistics are used in application, and have worked on medical and social network problems.
+			</p>
 
-			 When conducting research on model selection, I also worked under Dr. Yingying Fan and Dr. Jinchi Lv. Other collaborators have included Dr. Pallavi Basu on multiple testing; my dear sister Dr. Sue Fu on a study of surgical costs; and Dr. Thomas Valente, Megan Jacobs, Jody Brookover, Dr. Nate Cobb, and Dr. Amanda Graham on social network and health research. My graduate school experience has been particularly wonderful thanks to <a href = "https://www.rhsmith.umd.edu/directory/courtney-paulson">Dr. Courtney Paulson</a> and Dr. Pallavi Basu. Also, I am deeply grateful to PhD chair <a href = "https://www.marshall.usc.edu/faculty/directory/sosic">Greys Sosic</a>, who has worked very patiently and with great sensitivity with us students. For everyone's perspectives and conversations, I am so thankful. </p> 	
-		</div><!-- Main div ends here -->
+			<p> Teaching is also a primary interest of mine. I have instructed one class, guest-lectured a few, and been teaching or course
+				assistant for several. My CV is <a href="cv/LuellaFu_CV.pdf"> here. </a>
+			</p>
 
+			<p> My graduate school experience has been illuminated by faculty, collaborators, and peers. My advisor is <a href="http://www-bcf.usc.edu/~wenguans/">Dr. Wenguang Sun</a>.
+				We are studying statistical methods for large-scale estimation and inference jointly with <a href="http://www-bcf.usc.edu/~gareth/">Dr. Gareth James</a>.</p>
 
+			<p>
+				Other collaborators with whom I have worked closely have included Dr. Pallavi Basu on multiple testing; my sister Dr. Sue
+				Fu on a study of surgical costs; and Dr. Thomas Valente, Megan Jacobs, Jody Brookover, Dr. Nate Cobb, and Dr. Amanda
+				Graham on social network and health research. When conducting research on model selection, I was also advised by Dr.
+				Yingying Fan and Dr. Jinchi Lv.
+			</p>
 
-		
+			<p>
+				<a href="https://www.rhsmith.umd.edu/directory/courtney-paulson">Dr. Courtney Paulson</a> and Dr. Pallavi Basu were a
+				joy with whom to share part of the PhD experience. <a href="http://personal.lse.ac.uk/qiaox/">Dr. Xinghao Qiao </a> fearlessly
+				led the way for us all! PhD students <a href = "https://www.marshall.usc.edu/personnel/weinan-wang"> Weinan Wang</a>, <a href = "https://www.marshall.usc.edu/personnel/trambak-banerjee"> Trambak Banerjee </a>, and <a href = "https://www.marshall.usc.edu/personnel/joshua-derenski"> Josh Derenski </a> have also been great company and  made me very proud of our PhD program. I am deeply grateful to everyone mentioned and also to PhD chair <a href="https://www.marshall.usc.edu/faculty/directory/sosic">Greys Sosic</a>,
+				who has worked very patiently and with great sensitivity with us students. </p> Also, a thousand thanks to my best friend <a href="http://dushanperera.com"> Dushan Perera, </a> who took my website design from the '90s into the 21st century. 
 
-	</div>  <!-- end div with id of container ! -->
+		</div>
+	</div>
 
 	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+	 crossorigin="anonymous"></script>
 </body>
 </html>

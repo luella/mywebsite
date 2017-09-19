@@ -1,55 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>About me</title>
-	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/about.css">
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Luella Fu</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+	 crossorigin="anonymous">
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
-<body> <!-- she likes to use indentation to keep straight where her body tag is -->
-	<div id = "container">
+<body>
+	<div class="container">
 
-		<!-- Navigation div begins here -->
-		<div id = "navigation">
-			<a href = "index.html"> Home </a> | 
-			<a href = "research.html"> Research </a> |
-			About Me 
-		</div> <!-- Navigation div ends -->
+		<!-- Navigation  -->
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-pills float-right">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="research.html">Research & Teaching</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="about.html">About Me</a>
+					</li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">Luella Fu</h3>
+		</div>
 
-
-		<h1>About Me</h1>
-
-		<!-- Left sidebar div begins here -->
-		<div id = "left-sidebar">
-
-				<div>
-					<img src = "images/laughing.png" alt = "A photo of me"> 
+		<!-- Overview -->
+		<div class="banner row">
+			<div class="col-md-6">
+				<img class="banner-image" src="images/laughing-resize.png" alt="My photo">
+			</div>
+			<div class="col-md-6">
+				<div class="banner-body">
+					<img class="banner-image" src="images/myfamily-resize.jpg" alt="My family!">
 				</div>
-	
+			</div>
+		</div>
 
-		</div> <!-- Left sidebar div ends here -->
+		<!-- Content -->
+		<div class="content">
 
-		<!-- Main div begins here -->
-		<div id = "main">
-			
-			<p> Two things I like are technology and running. Having grown up in Silicon Valley, I believe (rather fervidly) that technology will change the world for the better. Developments in cryptocurrency, the digitization of health data, and artificial intelligence are particularly interesting. I once ran 20 miles for an <a href = "http://www.yelp.com/biz/diddy-riese-los-angeles" > icecream sandwich</a>. It was worth it. </p>
+			<legend>About Me</legend>
+
+			<p>
+				I have loved statistics since taking A.P. Statistics in <a href="http://gunn.pausd.org/"> high school </a> with Ms. Clark <sup>1</sup>. The idea that statistics could quantify evidence in order to resolve questions was tremendous. Then in <a href="https://www.cmc.edu/"> college </a>, I was further encouraged by  <a href="https://www.cmc.edu/academic/faculty/profile/yaron-raviv"> Dr. Raviv </a>, who fully supported my desire to study statistics further.
+			</p>
+
+			<p> Two other things I like are technology and running. Having grown up in Silicon Valley, I believe (rather fervidly) that technology will change the world for the better. The digitization of health data, the services embedded in many crytpocurrencies, and artificial intelligence are particularly interesting.
+			I once ran 20 miles for an <a href="http://www.yelp.com/biz/diddy-riese-los-angeles"> icecream sandwich</a>. It was worth it. </p>
 
 			<p> I also have a sister, Dr. Sue Fu, who completed her medical degree at Case Western and is a general surgery resident at Stanford. I am so proud of her. </p>
 
-		</div><!-- Main div ends here -->
+			<p class = "footnote"><sup>1</sup> During my PhD, I found another Gunn student who was inspired to pursue a PhD because of Ms. Clark's class!
+			</p>
+		</div>
+	</div>
 
+	<!-- Optional JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+	 crossorigin="anonymous"></script>
 
-		<!-- Right sidebar div begins here -->
-		<div id = "right-sidebar">
-				<div>
-					<img src = "images/myfamily.jpg" width=220px alt = "My family!" >
-				</div>
-		</div> <!-- Right sidebar div ends here -->
-
-
-		
-
-	</div>  <!-- end div with id of container ! -->
 </body>
+
 </html>

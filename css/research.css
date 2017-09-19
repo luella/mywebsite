@@ -2,20 +2,16 @@
 
 /* Body styling */
 body {
-	color: #4D5CB3; /* dark purple */
+	color: black; /* black text  */
 	font-family: 'PT Serif';
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100;Blue+Grey+Flat */
-	background: #3f4c6b; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover,  #3f4c6b 0%, #3f4c6b 100%); /* FF3.6-15 */
-	background: -webkit-radial-gradient(center, ellipse cover,  #3f4c6b 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
-	background: radial-gradient(ellipse at center,  #3f4c6b 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: white; /* colorpicker.com; Old browsers */
 	/*blue grey gradient*/
-	background: #3f4c6b url('../images/eight_horns.png') repeat;
+	/*background: #3f4c6b url('../images/eight_horns.png') repeat;*/
 }
 
 #container {
-	width: 960px;
+	width: 900px;
 	background: white;
 	margin: 0 auto;
 	overflow: hidden;
@@ -37,7 +33,17 @@ h1 {
 	font-style: normal;
 }
 
-h2, h3, h4, h5, h6 {
+h2 {
+	margin-top:40px;
+	margin-bottom:20px;
+	padding:10px;
+	text-align: center;
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+}
+
+h3, h4, h5, h6 {
 	text-align: center;
 	color: black;
 	font-weight: normal;
@@ -60,6 +66,18 @@ a {
 	text-decoration: none; /* everything that would be two words is dashed in css*/
 }
 
+/* Sets attributes of lists */
+li {
+   margin:0 0 10px 0;   
+}
+
+
+/* Sets attributes of links */
+a {
+	color: #0D6C8C; /* this is dark dusty blue */
+	text-decoration: none; /* everything that would be two words is dashed in css*/
+}
+
 
 /* Sets attributes of a state of anchor */
 a:hover {
@@ -69,7 +87,7 @@ a:hover {
 
 /* navigation styles are here */
 #navigation {
-	color: #7085FA; /* light blue */
+	color: #248BAD; /* dusty blue */
 	font-size: 20px;
 	font-weight: bold;
 	border-top: 5px double black;
@@ -99,13 +117,22 @@ a:hover {
 }
 
 /* main content styling */
+/* logo styling */
+#logo img{
+	display: block;
+	width: 200px;
+	margin:auto;
+	border:0;
+}
+
+/* main content styling */
 #main {
-	float:left;
-	margin-top:10px;
-	margin: 20px;
-	width: 880px;
-	padding: 20px;
-	background: #efefef; /* a ligiht grey */
+	float: left;
+	width: 710px;
+	margin: 50px;
+	padding: 25px;
+	background: #FAFAFA; /* very light grey*/
+
 }
 
 /* left sidebar styling */
@@ -150,6 +177,15 @@ a:hover {
 
 
 /* Classes are here */
+
+/* logo styling */
+#logo img{
+	display: block;
+	width: 200px;
+	margin:auto;
+	border:0;
+}
+
 .gray {
 	color: gray;
 }
@@ -172,6 +208,8 @@ a:hover {
 .clear {
 	clear: both;
 }
+
+
 
 
  
