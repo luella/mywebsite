@@ -1,0 +1,185 @@
+/*This is a CSS styling page and it requires no primers*/
+
+/* Body styling */
+body {
+	color: #4D5CB3; /* dark purple */
+	font-family: 'PT Serif';
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100;Blue+Grey+Flat */
+	background: #3f4c6b; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #3f4c6b 0%, #3f4c6b 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  #3f4c6b 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  #3f4c6b 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	/*blue grey gradient*/
+	background: #3f4c6b url('../images/eight_horns.png') repeat;
+}
+
+#container {
+	width: 960px;
+	background: white;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 15px;	
+ 	font-family: 'Slabo 27px', serif;
+    /* background: black; */
+}
+
+/* Header styling */
+
+h1 {
+	text-align: center;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h2, h3, h4, h5, h6 {
+	text-align: center;
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* Image styling */
+img{
+	max-width: 100%;
+	height: auto;
+	border-top: 5px solid #fff;
+	border-left: 5px solid #fff;
+	border-right: 5px solid #fff;
+	border-bottom: 35px solid #fff;
+}
+
+/* Sets attributes of links */
+a {
+	color: #90C3D4; /* this is light blue */
+	text-decoration: none; /* everything that would be two words is dashed in css*/
+}
+
+
+/* Sets attributes of a state of anchor */
+a:hover {
+	color: #FA70CA; /* this is pink */
+	text-decoration: underline;
+}
+
+/* navigation styles are here */
+#navigation {
+	color: #7085FA; /* light blue */
+	font-size: 20px;
+	font-weight: bold;
+	border-top: 5px double black;
+	border-bottom: 5px double black;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#navigation a {
+	color: #F5D838; /* this is yellow */
+}
+
+/* top photo styling */
+#topphoto {
+	width: 920px;
+	padding: 20px;
+}
+
+#topphoto img{
+	display: block;
+	width: 400px;
+	margin:auto;
+	border-top: 5px solid #efefef;
+	border-right: 5px solid #efefef;
+	border-bottom: 5px solid #efefef;
+	border-left: 5px solid #efefef;
+}
+
+/* main content styling */
+#main {
+	float: left;
+	width: 400px;
+	padding-top: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	background: #efefef;
+
+}
+
+/* left sidebar styling */
+#left-sidebar {
+	float: left;
+	width: 210px;
+	background: #efefef;
+	overflow: hidden;
+	margin-right: 20px;
+}
+
+#left-sidebar img {
+	display: block;
+	width: 200px;
+	margin: auto;
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-left: 5px solid black;
+
+}
+
+/* right sidebar styling */
+#right-sidebar {
+	float: left;
+	width: 260px;
+	background: #efefef; /* light gray */
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+#right-sidebar img {
+	display: block;
+	width: 250px;
+	margin: auto;
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-left: 5px solid black;
+}
+
+
+/* right sidebar styling */
+
+
+
+/* Classes are here */
+
+.gray {
+	color: gray;
+}
+
+.yellow {
+	color: #FAE570;
+}
+
+.right {
+	float: right;
+	margin: 20px;
+}
+
+.left {
+	float: left;
+	margin: 20px;
+}
+
+/* Sets stuff after float to next line */
+.clear {
+	clear: both;
+}
+
+
+
+ 
