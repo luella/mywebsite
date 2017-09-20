@@ -94,8 +94,8 @@ a {
   min-height:100%;
 }
 
-@media (min-width: 900px) {
-  .container {
-    max-width: 900px;
-  }
+@media (min-width: 768px) {
+.container {
+max-width: 768px;
+}
 }
