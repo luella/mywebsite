@@ -78,6 +78,13 @@ legend {
   margin: 0 auto;
 }
 
+
+/* Optional resources section */
+.resources .banner {
+  margin-top: 50px;
+  text-align: center;
+}
+
 /* Bootstrap Overrides */
 a {
   color: #298cca;
