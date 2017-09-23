@@ -78,10 +78,8 @@ legend {
   margin: 0 auto;
 }
 
-
-/* Optional resources section */
-.resources .banner {
-  margin-top: 50px;
+/* Map Features */
+.map{
   text-align: center;
 }
 
